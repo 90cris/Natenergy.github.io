@@ -7,7 +7,7 @@ export const Narvar = () => {
 
 <ul className="nav justify-content-center nav-tabs">
   <li className="nav-item">
-    <Link className="nav-link " to="/">Sitio</Link>
+    <Link className="nav-link " to="/SinServicio">Sitio</Link>
   </li>
   <li className="nav-item">
     <Link className="nav-link" to="/PostVenta">Post-Venta</Link>

@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Narvar />
         <Routes>
-          <Route path="/" element={<SinServicio />} />
+          <Route path="/SinServicio" element={<SinServicio />} />
           <Route path="/PostVenta" element={<PostVenta />} />
           <Route path="/Contacto" element={<Contacto />} />
           {/* <Route path="/Cotizacion" element={<Cotizacion />} /> */}
