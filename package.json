@@ -1,6 +1,7 @@
 {
   "name": "natenergy",
   "private": true,
+  "homepage": "https://90cris.github.io/Natenergy.github.io/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
