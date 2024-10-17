@@ -22,7 +22,7 @@ function App() {
           <Route path="/PostVenta" element={<PostVenta />} />
           <Route path="/Contacto" element={<Contacto />} />
           {/* <Route path="/Cotizacion" element={<Cotizacion />} /> */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<SinServicio />} />
         </Routes>
       </BrowserRouter>
     </div>
