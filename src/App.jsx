@@ -9,6 +9,7 @@ import { Cotizacion } from "./pages/Cotizacion";
 
 function App() {
   return (
+
     <BrowserRouter>
       <div className="app-container">
 
@@ -29,6 +30,9 @@ function App() {
         </div>
       </div>
     </BrowserRouter>
+
+   
+
   );
 }
 
