@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate  } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import Header from "./componentes/header";
 import { Nabvar } from "./componentes/Nabvar";
@@ -9,15 +9,12 @@ import { Cotizacion } from "./pages/Cotizacion";
 
 function App() {
   return (
-
     <BrowserRouter>
       <div className="app-container">
-
         <div className="header-nav-container">
           <Header />
           <Nabvar />
         </div>
-
 
         <div className="content">
           <Routes>
@@ -30,9 +27,6 @@ function App() {
         </div>
       </div>
     </BrowserRouter>
-
-   
-
   );
 }
 

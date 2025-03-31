@@ -1,7 +1,7 @@
 {
   "name": "natenergy",
   "private": true,
- "homepage": "https://90cris.github.io/Natenergy",
+  "homepage": "https://Natenergy.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
