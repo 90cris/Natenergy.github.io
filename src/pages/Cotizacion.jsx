@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Cotizacion.css";
-import panel from "../../public/assets/panel_150.jpg";
-import kit from "../../public/assets/kit_2.jpg";
+import panel from "../assets/panel_150.jpg";
+import kit from "../assets/kit_2.jpg";
 
 export const Cotizacion = () => {
   const [cargando, setCargando] = useState(true);
